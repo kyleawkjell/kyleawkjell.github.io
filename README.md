@@ -1,1 +1,2 @@
-# kyleawkjell.github.io
+# Kyle's Portfolio
+## This is my first project on my journey to becoming a web developer. It's a basic portfolio template that I will improve on as I become more skilled. Nothing is set in stone so feel free to comment a change you would suggest making!
