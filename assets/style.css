@@ -22,7 +22,7 @@ h1 {
 .sub-heading {
     border-bottom-style: solid;
     border-color: #dddddd;
-    border-width: 5px;
+    border-width: 3px;
     color: #4aaaa5;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     font-size: 30px;
@@ -132,4 +132,18 @@ button {
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-style: none;
+}
+.titles {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    width: 260px;
+    float: left;
+    position: relative;
+    left: 345px;
+    top: 150px;
 }
