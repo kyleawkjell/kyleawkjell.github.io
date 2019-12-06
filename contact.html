@@ -4,19 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
     <title>Portfolio</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
 
+    <link rel="stylesheet" type="text/css" href="assets/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+</head>
 <body>
     <header>
         <div>
-            <h1>Kyle Wilson-Kjellberg</h1>
+            <ul>
+                <li><a href="index.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
         </div>
-        <div class="links"><a href="contact.html">Contact</a></div>
-        <div class="links"><a href="portfolio.html">Portfolio</a></div>
-        <div class="links"><a href="index.html">About</a></div>
+        <div>
+            <h1 class="heading">
+                Kyle Wilson-Kjellberg
+            </h1>
+        </div>
     </header>
-    <footer>Copyright©</footer>
+    <div class="p1">
+        <h2 class="sub-heading">
+            Contact
+        </h2>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email">
+        </form>
+    </div>
+    <footer>
+        Copyright©
+    </footer>
 </body>
 </html>
