@@ -3,6 +3,9 @@
     content: "";
     display: block;
 }
+body {
+    background-image: url(images/dust_scratches.png);
+}
 h1 {
     background-color: #4aaaa5;
     color: #ffffff;
@@ -74,7 +77,7 @@ footer {
     width: 100%;
 }
 p {
-    float: left;
+    padding: 10px;
 }
 img {
     position: relative;
@@ -83,6 +86,7 @@ img {
 .me {
     width: 375px;
     height: 288px;
+    float: left;
 }
 form {
     width: 100%;
